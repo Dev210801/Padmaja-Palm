@@ -182,7 +182,6 @@ video {
   .container .box .title .block {
     width: 0%;
     height: 6vw;
-    background: #ab8f53;
     opacity: 0.8;
     position: absolute;
     animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
@@ -195,7 +194,6 @@ video {
   .container .box .role .block {
     width: 0%;
     height: 20vw;
-    background: #e91e63;
     opacity: 0.6;
     position: absolute;
     animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
@@ -221,7 +219,6 @@ video {
   .container .box .role .block {
     width: 0%;
     height: 20vw;
-    background: #e91e63;
     opacity: 0.6;
     position: absolute;
     animation: secBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
