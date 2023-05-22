@@ -1,5 +1,54 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-.about{
-    padding: 2rem;
-    font-family: 'Nunito', sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+
+.aboutflex{
+    display:flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    justify-content: space-evenly;
+    
+    
+}
+
+.heading, .para1, .para2 {
+    width: 40rem;
+    text-align: justify;
+    padding: 1rem;
+}
+.us{
+    margin-top: 3rem;
+    font-weight: bold;
+    
+}
+.head{
+    font-size: 6vw;
+    text-transform: capitalize;
+    font-family: 'Alkatra', cursive;
+}
+
+.para1, .para2 {
+    margin-top: 2rem;
+    font-weight: bold;
+    color: rgb(69, 69, 69);
+}
+
+@media only screen and (max-width: 1000px) {
+
+    .aboutflex{
+        display:flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        justify-content: center;
+        
+        
+    }
+ 
+    .heading, .para1, .para2 {
+        width:90%;
+        text-align: justify;
+        padding: 1rem;
+    }
+    .para1, .para2 {
+        margin-top: 0rem;
+        padding: 0 2rem;    
+    }
 }

@@ -3,7 +3,7 @@ import "../styles/navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   const navref = useRef();
@@ -24,11 +24,11 @@ export default function Navbar() {
       <header style={{ background: color }}>
         <h3>logo</h3>
         <nav ref={navref}>
-          <Link onClick={showNavbar} to="/">Home</Link>
-          <Link onClick={showNavbar} to="venues">Venues</Link>
-          <Link onClick={showNavbar} to="service">Services and Facilities</Link>
-          <Link onClick={showNavbar} to="gallery">Gallery</Link>
-          <Link onClick={showNavbar} to="contact">Contact us</Link>
+          <NavLink onClick={showNavbar} to="/">Home</NavLink>
+          <NavLink onClick={showNavbar} to="venues">Venues</NavLink>
+          <NavLink onClick={showNavbar} to="service">Services and Facilities</NavLink>
+          <NavLink onClick={showNavbar} to="gallery">Gallery</NavLink>
+          <NavLink onClick={showNavbar} to="contact">Contact us</NavLink>
           <button className="navbtn navclsbtn" onClick={showNavbar}>
             <FaTimes />
           </button>

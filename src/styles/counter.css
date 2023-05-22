@@ -1,0 +1,15 @@
+.counterflex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10vh;
+}
+.cnt1, .cnt2, .cnt3  {
+    font-size: 3vw;
+    font-weight: bold;
+    align-items: center;
+}
+.visits{
+    font-size: 1.5vw;
+    font-weight: lighter;
+    
+}

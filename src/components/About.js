@@ -1,29 +1,33 @@
 import React from "react";
-import '../styles/About.css';
+import "../styles/About.css";
 
 export default function About() {
   return (
-    <div className="about">
-      <h1>About us</h1>
-      <h4>
-        Padmaja Palm Groves Resort Conventions, which spans 18.5 acres, is a
-        diverse complex where people may come together to celebrate culture,
-        exchange ideas, enjoy art, and take in the history and energy of our
-        wonderful city.
-      </h4>
-      <h4>
-        You can conceptualize and produce an event with Our Conventions that
-        embodies your idea of a significant celebration. We provide many options
-        which can match your dream festival in the shape of grand event halls,
-        lush green lawns, ballrooms, lounges, and parking all with the personal
-        touch of our staff of committed experts.
-      </h4>
-      <h4>
-        Both the food we provide and the method we serve it are of the highest
-        quality. All breakfast, Lunch and dinner options are prepared with care
-        and served hot. Your taste buds will be delighted by every bite of our
-        cuisine.
-      </h4>
+    <div className="aboutflex">
+      <div className="heading">
+        <div className="us">about</div>
+        <div className="head">Padmaja Palm</div>
+      </div>
+      <div className="para1">
+        Padmaja Palm Groves Resort Conventions located in Hyderabad close to
+        Airport is rated among best Conventions and places to celebrate the
+        culture in Hyderabad. This Location is very suitable for Destination
+        Weddings, Parties, Conferences, Concerts, Exhibitions and what not. The
+        Padmaja Palm Groves Resort Conventions is the ideal location for a
+        destination wedding. It has a variety of indoor and outdoor venues, an
+        award-winning catering team, 46 Villas, 24 Premium Rooms, and 1 Nizami
+        Suite for the wedding party, a dedicated Event Coordinator to assist and
+        take care of all your wedding requirements, and a truly hospitable team
+        committed to making it a rich experience.
+      </div>
+      <div className="para2">
+        We provide top-notch amenities including grand event halls, lush green
+        lawns, ballrooms, lounges, swimming pool for poolside gatherings,
+        spacious rooms, we are here to serve garden area for smaller gatherings
+        to large Destination weddings, and all other conveniences while keeping
+        in mind of global hospitality standards, guests' comfort and with a
+        touch of Hyderabadi architecture.
+      </div>
     </div>
   );
 }
