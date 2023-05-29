@@ -4,6 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import logo from '../asserts/logo3 without bg.png';
 
 export default function Navbar() {
   const navref = useRef();
@@ -22,7 +23,7 @@ export default function Navbar() {
   return (
     <div>
       <header style={{ background: color }}>
-        <h3>logo</h3>
+        <img src={logo} alt="" />
         <nav ref={navref}>
           <NavLink onClick={showNavbar} to="/">Home</NavLink>
           <NavLink onClick={showNavbar} to="venues">Venues</NavLink>

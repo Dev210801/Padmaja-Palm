@@ -59,6 +59,7 @@ header .navbtn {
     visibility: visible;
     opacity: 1;
   }
+  
   header nav {
     position: fixed;
     top: 0;
@@ -88,4 +89,8 @@ header .navbtn {
     font: 2rem;
     font-weight: bold;
   }
+}
+
+img {
+  width: 8vw;
 }
