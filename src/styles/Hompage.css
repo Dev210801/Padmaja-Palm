@@ -58,6 +58,7 @@ video {
   align-items: Top;
   margin-top: calc(0vh - 90px);
   position: relative;
+  padding-bottom: 30px;
 }
 .container .box .role {
   width: 100%;
