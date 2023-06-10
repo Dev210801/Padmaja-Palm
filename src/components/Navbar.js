@@ -21,7 +21,7 @@ export default function Navbar() {
   }
   window.addEventListener("scroll", setscroll);
   return (
-    <div>
+    <div className="navvv">
       <header style={{ background: color}}>
       <img src={logo} alt="" className="img1" />
         <nav ref={navref}>

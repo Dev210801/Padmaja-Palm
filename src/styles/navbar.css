@@ -5,8 +5,8 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
+  
 }
-
 :root {
   --mainColor: transparent;
   --mainColorLight: #5767aa;
@@ -54,7 +54,7 @@ header .navbtn {
   opacity: 0;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1024px ) {
   header .navbtn {
     visibility: visible;
     opacity: 1;

@@ -24,6 +24,7 @@
     background-color: var(--main-color);
     min-width: none;
     padding-top: 30px;
+    
 }
 .copyright{
     text-align: center;
@@ -38,7 +39,6 @@
 .nvlns{
     text-decoration: none;
     text-align: center;
-    font-size: 2.8vh;
     color: black;
 }
 .nvlns:hover{

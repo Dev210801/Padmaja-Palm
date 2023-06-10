@@ -1,6 +1,5 @@
   @import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@300&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-  
 video {
   width: 100%;
   height: 100%;
@@ -47,7 +46,7 @@ video {
   color: #000000;
   opacity: 0.7;
   font-weight: lighter;
-  font-size: 5vw;
+  font-size: 2rem;
   -webkit-animation: mainFadeIn 2s forwards;
   -o-animation: mainFadeIn 2s forwards;
   animation: mainFadeIn 2s forwards;
@@ -58,7 +57,6 @@ video {
   align-items: Top;
   margin-top: calc(0vh - 90px);
   position: relative;
-  padding-bottom: 30px;
 }
 .container .box .role {
   width: 100%;
@@ -86,7 +84,7 @@ video {
   font-family: "Lato";
   color: #452f2f;
   font-family: 'Cinzel', serif;
-  font-size: 6vw;
+  font-size: 3rem;
   text-transform: uppercase;
 }
 
@@ -176,7 +174,7 @@ video {
   }
   
   .container .box .title h1 {
-    font-size: 6vw;
+    font-size: 1.5rem;
     display: flex;
     margin: auto;
     margin-top: calc(0vh - 90px);
@@ -190,7 +188,7 @@ video {
     margin-top: calc(-12vh - 90px);
   }
   .container .box .role p {
-    font-size: 10vw;
+    font-size: 1.5rem;
     margin-top: calc(10vh - 90px);
   }
   .container .box .role .block {
@@ -209,13 +207,13 @@ video {
     max-width: 100%;
   }
   .container .box .title h1 {
-    font-size: 6vw;
+    font-size: 1.5rem;
     display: flex;
     margin: auto;
     margin-top: calc(0vh - 90px);
   }
   .container .box .role p{
-    font-size: 10vw;
+    font-size: 2rem;
     margin-top: calc(1vh - 90px); 
   }
   .container .box .role .block {

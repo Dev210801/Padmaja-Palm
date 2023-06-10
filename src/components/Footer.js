@@ -5,6 +5,9 @@ import imglogo from "../asserts/Landscape without bg.png";
 import { NavLink } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 export default function Footer() {
+  const scrolltopp = () => {
+    window.scrollTo(0,0);
+  }
   // const {} = useLoadScript({
   //   googleMapsApiKey: ""
   // })
@@ -39,19 +42,19 @@ export default function Footer() {
         </div>
         <div className="comp3">
           <div className="navs">
-            <NavLink to="/" className="nvlns">
+            <NavLink to="/" className="nvlns" onClick={scrolltopp}>
               Home
             </NavLink>
-            <NavLink to="venues" className="nvlns">
+            <NavLink to="venues" className="nvlns"  onClick={scrolltopp}>
               About
             </NavLink>
-            <NavLink to="service" className="nvlns">
+            <NavLink to="service" className="nvlns"  onClick={scrolltopp}>
               Services and Facilities
             </NavLink>
-            <NavLink to="gallery" className="nvlns">
+            <NavLink to="gallery" className="nvlns"  onClick={scrolltopp}>
               Gallery
             </NavLink>
-            <NavLink to="contact" className="nvlns">
+            <NavLink to="contact" className="nvlns"  onClick={scrolltopp}>
               Contact us
             </NavLink>
           </div>
