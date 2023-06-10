@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
 
-
+#bgimg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: opacity(0.3);
+}
+.aboutflex{
+    height: calc(100vh - 90px);
+}
 .heading, .paras {
     width: 90%;
     text-align: justify;

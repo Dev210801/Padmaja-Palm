@@ -1,9 +1,11 @@
 import React from "react";
 import "../styles/About.css";
+import bgimg from '../asserts/1149327_5285.jpg'
 
 export default function About() {
   return (
     <div className="aboutflex">
+      <img src={bgimg} alt="" id="bgimg" />
       <div className="heading">
         <div className="head">Padmaja Palm</div>
       </div>

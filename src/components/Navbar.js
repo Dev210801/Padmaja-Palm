@@ -4,7 +4,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from '../asserts/logo3 without bg.png';
+import logo from '../asserts/Landscape without bg.png';
 
 export default function Navbar() {
   const navref = useRef();

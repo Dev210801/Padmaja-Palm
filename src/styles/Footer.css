@@ -9,7 +9,6 @@
     justify-content: space-around;
     padding: 1rem 2rem;
     flex-wrap: wrap;
-    gap: 1.5rem;
     
     
 }
@@ -19,6 +18,7 @@
 }
 .imglo{
     width: 100%;
+    scale: 1.2;
 }
 .footer{
     background-color: var(--main-color);
@@ -38,7 +38,7 @@
 }
 .nvlns{
     text-decoration: none;
-    text-align: center;
+    /* text-align: center; */
     color: black;
 }
 .nvlns:hover{

@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,300;1,400&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +10,7 @@
 }
 :root {
   --mainColor: transparent;
-  --mainColorLight: #5767aa;
+  --mainColorLight: rgb(250, 241, 227);
   --secondaryColor: #db2b39;
   --textColor: black;
 }
@@ -32,14 +33,15 @@ nav a {
   color: var(--textColor);
   text-decoration: none;
   font-size: 20px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', sans-serif;
 } 
 nav .active{
- color: #727273;
+  text-decoration: underline;
 }
 
 nav a:hover {
-  color: #b5b5b5;
+  color: #3f3f3f;
+  text-decoration: underline;
 }
 
 
@@ -90,7 +92,8 @@ header .navbtn {
 
   nav a {
     font-size: 1.5rem;
-    font-weight: bold;
+    
+  font-family: 'Poppins', sans-serif;
   }
 
   

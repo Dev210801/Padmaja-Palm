@@ -1,22 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
 .homecar{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 40px;
+    padding: 40px 40px 0 40px;
     
 }
 
 .text, .caras{
     background-color: white;
     padding: 40px;
+    width: 60%;
 }
 .homabt{
     background: url("../asserts/output-onlinepngtools.png");
     background-repeat: no-repeat;
     width: 100%;
 }
+.caras{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+}
 .text{
     width: 30vw;
+    text-align: justify;
+}
+.text h2 {
+    
+    font-family: 'Alkatra', cursive;
+    font-size: 1.9rem;
+}
+.matter{
+    
+    font-family: 'Nunito', sans-serif;
 }
 @media only screen and (max-width: 1200px){
     .text{

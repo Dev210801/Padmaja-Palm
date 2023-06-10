@@ -60,6 +60,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="comp4">
+          <img src={imglogo} alt="" className="imglo" />
           <div>
             <button className="icons">
               <FaFacebook size={25} />
@@ -71,7 +72,6 @@ export default function Footer() {
               <FaTwitter size={25}/>
             </button>
           </div>
-          <img src={imglogo} alt="" className="imglo" />
         </div>
       </div>
       <div className="line" />

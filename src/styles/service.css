@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+.maindiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.mmm{
+    background: url("../asserts/output-onlinepngtools.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+}
+.maindivrev{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+}
+
+#igsam {
+    width: 100%;
+    height: 100%;
+}
+.imgser, .text1{
+    width: 50%;
+}
+
+@media only screen and (max-width: 700px){
+   
+    .imgser, .text1{
+        width: 100vw;
+    }
+    
+#igsam {
+    width: 70vw;
+}
+    .maindiv, .maindivrev{
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+
+.text1 h3{
+    font-family: 'Playfair', serif;
+    font-size: 3rem;
+    padding-top: 3vh;
+    text-align: center;
+}
+.text1 p{
+    font-size: 1.3rem;
+    padding: 3vh;
+    font-family: 'Nunito', sans-serif;
+}
