@@ -1,9 +1,7 @@
 import React from "react";
 import "../styles/service.css";
-import igsam from "../asserts/resortpics/1.jpg"
 import "../jsons/services.js";
 import {data} from "../jsons/services.js"
-import imgbg from "../asserts/1149327_5285.jpg"
 export default function Service() {
   
   return (
