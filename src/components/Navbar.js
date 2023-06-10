@@ -22,19 +22,19 @@ export default function Navbar() {
   window.addEventListener("scroll", setscroll);
   return (
     <div>
-      <header style={{ background: color }}>
-        <img src={logo} alt="" />
+      <header style={{ background: color}}>
+      <img src={logo} alt="" className="img1" />
         <nav ref={navref}>
           <NavLink onClick={showNavbar} to="/">Home</NavLink>
-          <NavLink onClick={showNavbar} to="venues">Venues</NavLink>
+          <NavLink onClick={showNavbar} to="venues">About</NavLink>
           <NavLink onClick={showNavbar} to="service">Services and Facilities</NavLink>
           <NavLink onClick={showNavbar} to="gallery">Gallery</NavLink>
           <NavLink onClick={showNavbar} to="contact">Contact us</NavLink>
-          <button className="navbtn navclsbtn" onClick={showNavbar}>
+          <button className="navbtn navclsbtn" onClick={showNavbar} >
             <FaTimes />
           </button>
         </nav>
-        <button className="navbtn" onClick={showNavbar}>
+        <button className="navbtn" onClick={ showNavbar}>
           <FaBars />
         </button>
       </header>

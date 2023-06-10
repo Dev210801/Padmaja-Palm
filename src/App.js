@@ -7,6 +7,7 @@ import About from "./components/About.js";
 import Service from "./components/Service";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 function App() {
   return (
     <div className="homepage">
@@ -20,6 +21,7 @@ function App() {
         <Route path="gallery" element={<Gallery />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
+      <Footer/>
     </div>
   );
 }

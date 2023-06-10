@@ -1,8 +1,7 @@
 import React from 'react';
 import vid from "../asserts/bgvideo.mp4";
-import About from "../components/About";
+import HomeAbt from './HomeAbt';
 import "../styles/Hompage.css"
-import Counter from './Counter';
 export default function Homepage() {
   return (
     <div>
@@ -29,9 +28,8 @@ export default function Homepage() {
        
       </div>
       <div className="aboutfoot">
-        <About /> 
-        <Counter/>
-        <About /> 
+        <HomeAbt/>
+        
       </div>
     </div>
   )

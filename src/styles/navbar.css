@@ -22,7 +22,7 @@ header {
   padding: 0 2rem;
   background-color: var(--mainColor);
   color: var(--textColor);
-  position: sticky;
+  
   top: 0;
   z-index: 999;
 }
@@ -35,11 +35,11 @@ nav a {
   font-family: 'Playfair Display', serif;
 } 
 nav .active{
- color: #5767aa;
+ color: #727273;
 }
 
 nav a:hover {
-  color: #5767aa;
+  color: #b5b5b5;
 }
 
 
@@ -58,13 +58,14 @@ header .navbtn {
   header .navbtn {
     visibility: visible;
     opacity: 1;
+
   }
-  
   header nav {
     position: fixed;
+    overflow: hidden;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
     display: flex;
     align-items: center;
@@ -72,8 +73,10 @@ header .navbtn {
     justify-content: center;
     gap: 1.5rem;
     background-color: var(--mainColorLight);
-    transition: 1s;
-    transform: translateY(-100vh);
+    transition: 0.5s;
+    transform: translateY(-120vh);
+    
+    
   }
   header .responsive_nav {
     transform: none;
@@ -86,11 +89,13 @@ header .navbtn {
   }
 
   nav a {
-    font: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
   }
+
+  
 }
 
-img {
-  width: 8vw;
+.img1 {
+  width: 120px;
 }

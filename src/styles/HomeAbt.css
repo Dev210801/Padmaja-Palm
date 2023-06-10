@@ -1,0 +1,32 @@
+.homecar{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    
+}
+
+.text, .caras{
+    background-color: white;
+    padding: 40px;
+}
+.homabt{
+    background: url("../asserts/output-onlinepngtools.png");
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.matter{
+}
+.text{
+    width: 30vw;
+}
+@media only screen and (max-width: 1200px){
+    .text{
+        width: 90vw;
+    }
+    .caras{
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+    }
+}
