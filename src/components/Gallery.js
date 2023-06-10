@@ -3,7 +3,7 @@ import "../styles/Gallery.css";
 
 export default function Gallery() {
   return (
-    <div>
+    <div className="outter">
       <p>Gallery</p>
     </div>
   );
