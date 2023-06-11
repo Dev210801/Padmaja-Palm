@@ -5,7 +5,7 @@ import img4 from "../asserts/resortpics/3.jpg"
 import img5 from "../asserts/resortpics/5.jpg"
 import img6 from "../asserts/resortpics/8.jpg"
 import img7 from "../asserts/resortpics/1.jpg"
-import img8 from "../asserts/resortpics/4.jpg"
+import img8 from "../asserts/resortpics/6.jpg"
 
 
 export const  data = [

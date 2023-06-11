@@ -1,22 +1,21 @@
 import React from "react";
 import "../styles/Footer.css";
-// import { GoogleMap, useLoadScript, Marker} from '@react-google-maps/api';
 import imglogo from "../asserts/Landscape without bg.png";
 import { NavLink } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import Mapsetup from "./Mapsetup";
 export default function Footer() {
   const scrolltopp = () => {
     window.scrollTo(0,0);
   }
-  // const {} = useLoadScript({
-  //   googleMapsApiKey: ""
-  // })
-
+ 
   return (
     <div className="footer">
       <div className="foot">
         <div className="comp1">
-          <div className="map">maps</div>
+          <div className="map">
+            <Mapsetup/>
+             </div>
         </div>
         <div className="comp2">
           <div className="contact">

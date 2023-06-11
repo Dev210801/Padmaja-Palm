@@ -10,12 +10,13 @@
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    justify-content: center;
 
 }
 .maindivrev{
     display: flex;
     flex-wrap: wrap-reverse;
-    width: 100%;
+    width: 90%;
 }
 
 #igsam {

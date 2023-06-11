@@ -10,13 +10,16 @@
 }
 
 .text, .caras{
-    background-color: white;
+    background-color: rgb(249, 242, 233);
+    border-radius: 10px;
     padding: 40px;
     width: 60%;
 }
 .homabt{
-    background: url("../asserts/output-onlinepngtools.png");
+    background: url("../asserts/16400328_v708-aum-24-b-diwali.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
     width: 100%;
 }
 .caras{
