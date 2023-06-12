@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/About.css";
-import  Carousel  from "./Carousel.js";
+// import  Carousel  from "./Carousel.js";
 
 export default function About() {
   return (
