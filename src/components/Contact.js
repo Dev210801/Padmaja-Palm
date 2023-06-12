@@ -12,9 +12,9 @@ export default function Contact() {
       <h5> <span className="ss">
          ADDRESS: 
         </span>
-        {'\u00A0'} sy no 294, airport road mamidpally, balapur mandal rangareddy dist. <br />
+        {'\u00A0'} sy no 294, Airport road Mamidpally, Balapur mandal Rangareddy dist. <br />
 landmark : mamidpally to Jalpally Rd, Hyderabad, Telangana 500005.</h5>
-      <h6>Rajiv Gandhi International is very nearby, and Nehru The Outer Ring Road is just a few minutes away.</h6>
+      <h6>Rajiv Gandhi International Airport is very nearby, And Nehru The Outer Ring Road is just a few minutes away.</h6>
     </div>
   );
 }
