@@ -13,8 +13,8 @@ export default function Contact() {
          ADDRESS: 
         </span>
         {'\u00A0'} sy no 294, Airport road Mamidpally, Balapur mandal Rangareddy dist. <br />
-landmark : mamidpally to Jalpally Rd, Hyderabad, Telangana 500005.</h5>
-      <h6>Rajiv Gandhi International Airport is very nearby, And Nehru The Outer Ring Road is just a few minutes away.</h6>
+Landmark : Mamidpally to Jalpally Rd, Hyderabad, Telangana 500005.</h5>
+      <h6>Nearby Rajiv Gandhi International Airport, And Nehru The Outer Ring Road is just a few minutes away.</h6>
     </div>
   );
 }
