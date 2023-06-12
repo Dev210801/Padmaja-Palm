@@ -2,7 +2,7 @@
 
 
 .aboutflex{
-    height: calc(100vh - 90px);
+    min-height: calc(100vh - 90px);
     background: url("../asserts/output-onlinepngtools.png");
     background-attachment: fixed;
     background-position: center;
@@ -29,25 +29,25 @@
     font-weight: bold;
     color: rgb(69, 69, 69);
 }
+/* .carousel{
+    width: 90vw;
+    height: 60vh;
+    position: relative;
+} */
 
 @media only screen and (max-width: 1000px) {
 
     .aboutflex{
         display:flex;
         flex-direction: column;
-        gap: 0.5rem;
-        justify-content: center;
-        
         
     }
  
     .heading, .para1, .para2 {
-        width:90%;
         text-align: justify;
-        padding: 1rem;
+        /* padding: 1rem; */
     }
     .para1, .para2 {
-        margin-top: 0rem;
-        padding: 0 2rem;    
+        /* padding: 0 2rem;     */
     }
 }

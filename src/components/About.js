@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/About.css";
+import  Carousel  from "./Carousel.js";
 
 export default function About() {
   return (
@@ -32,6 +33,7 @@ export default function About() {
         committed to making it a rich experience.
       </div>
       </div>
+      
     </div>
   );
 }

@@ -23,14 +23,13 @@ export default function Footer() {
             Contact us
             </h4> 
             <p>
-              sy no 294 ,airport road mamidpally, balapur mandal rangareddy dist
-            landmark : mamidpally, to, Jalpally Rd, Hyderabad, Telangana 500005
+              sy no 294, airport road mamidpally, balapur mandal rangareddy dist.<br/>
+            landmark : mamidpally to Jalpally Rd, Hyderabad, Telangana 500005
               </p>
           </div>
           <div className="call">
             <br />
             <h4>
-
             Call
             </h4>
             <p>

@@ -16,7 +16,7 @@
 .maindivrev{
     display: flex;
     flex-wrap: wrap-reverse;
-    width: 90%;
+    width: 100%;
 }
 
 #igsam {
@@ -25,6 +25,12 @@
 }
 .imgser, .text1{
     width: 50%;
+}
+.text1{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 @media only screen and (max-width: 700px){

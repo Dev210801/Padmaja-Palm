@@ -6,6 +6,7 @@ export default function Service() {
   
   return (
     <div className="mmm">
+      <br />
     {/* <img src={imgbg} alt="" className="imgbg2" /> */}
     {
       data.map((items) => {
@@ -57,6 +58,7 @@ export default function Service() {
   <p>matter</p>
 </div>
     </div> */}
+    <br />
     </div>
   );
 }

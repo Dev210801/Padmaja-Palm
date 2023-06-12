@@ -70,7 +70,9 @@
 }
 .comp1, .comp2, .comp3, .comp4{
     width: 250px;
-    height: 200px;
+    min-height: max-content;
+    gap: 1rem;
+    /* background-color: aquamarine; */
 }
 .contact p {
     font-size: smaller;
