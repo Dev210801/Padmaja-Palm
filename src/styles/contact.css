@@ -36,3 +36,9 @@
   font-size: 1rem;
   font-family: "Mulish", sans-serif;
 }
+
+.mapset1{
+    height: 50vw;
+    width: 100vw;
+    background-color: aquamarine;
+}
