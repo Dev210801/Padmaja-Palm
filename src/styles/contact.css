@@ -1,7 +1,37 @@
-.outter1{
-    background: url("../asserts/output-onlinepngtools.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    min-height: 100vh;
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap");
+.outter1 {
+  background: url("../asserts/output-onlinepngtools.png");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  min-height: calc(100vh - 90px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 1rem;
+}
+.ss {
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.outter1 h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.outter1 h3 {
+  font-size: 1.5rem;
+}
+.outter1 h5 {
+  font-size: 1.4rem;
+  text-align: center;
+  font-family: "Mulish", sans-serif;
+}
+.outter1 h6 {
+  font-size: 1rem;
+  font-family: "Mulish", sans-serif;
 }
