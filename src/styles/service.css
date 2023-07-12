@@ -6,10 +6,10 @@
     width: 100%;
 }
 .mmm{
-    background: url("../asserts/output-onlinepngtools.png");
+    /* background: url("../asserts/output-onlinepngtools.png");
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     justify-content: center;
 
 }

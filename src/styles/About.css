@@ -3,10 +3,7 @@
 
 .aboutflex{
     min-height: calc(100vh - 90px);
-    background: url("../asserts/output-onlinepngtools.png");
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+    
 }
 .heading, .paras {
     width: 90%;

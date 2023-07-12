@@ -2,6 +2,8 @@ import React from "react";
 import "../styles/HomeAbt.css";
 import Carousel from "./Carousel";
 import Counter from "./Counter";
+import '../jsons/Homecarousel';
+import { homecaro } from '../jsons/Homecarousel';
 
 export default function HomeAbt() {
   return (
@@ -26,7 +28,7 @@ export default function HomeAbt() {
         </div>
 
         <div className="caras">
-          <Carousel />
+          <Carousel homecaro = {homecaro}/>
         </div>
       </div>
       <Counter />

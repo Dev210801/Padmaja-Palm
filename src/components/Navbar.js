@@ -13,7 +13,7 @@ export default function Navbar() {
   };
   const [color, setcolor] = useState("transparent");
   function setscroll() {
-    if (window.scrollY >= 100) {
+    if (window.scrollY >= 10) {
       setcolor("white");
     } else {
       setcolor("transparent");
@@ -26,8 +26,10 @@ export default function Navbar() {
       <img src={logo} alt="" className="img1" />
         <nav ref={navref}>
           <NavLink onClick={showNavbar} to="/">Home</NavLink>
-          <NavLink onClick={showNavbar} to="venues">About</NavLink>
-          <NavLink onClick={showNavbar} to="service">Services and Facilities</NavLink>
+          <NavLink onClick={showNavbar} to="about">About</NavLink>
+          <NavLink onClick={showNavbar} to="service">Services</NavLink>
+          <NavLink onClick={showNavbar} to="accommodation">Accommodation</NavLink>
+          <NavLink onClick={showNavbar} to="venues">Venues</NavLink>
           <NavLink onClick={showNavbar} to="gallery">Gallery</NavLink>
           <NavLink onClick={showNavbar} to="contact">Contact us</NavLink>
           <button className="navbtn navclsbtn" onClick={showNavbar} >

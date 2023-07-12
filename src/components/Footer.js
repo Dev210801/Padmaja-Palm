@@ -43,11 +43,17 @@ export default function Footer() {
             <NavLink to="/" className="nvlns" onClick={scrolltopp}>
               Home
             </NavLink>
-            <NavLink to="venues" className="nvlns"  onClick={scrolltopp}>
+            <NavLink to="about" className="nvlns"  onClick={scrolltopp}>
               About
             </NavLink>
             <NavLink to="service" className="nvlns"  onClick={scrolltopp}>
               Services and Facilities
+            </NavLink>
+            <NavLink to="accommodation" className="nvlns"  onClick={scrolltopp}>
+            Accommodation
+            </NavLink>
+            <NavLink to="venues" className="nvlns"  onClick={scrolltopp}>
+              Venues
             </NavLink>
             <NavLink to="gallery" className="nvlns"  onClick={scrolltopp}>
               Gallery

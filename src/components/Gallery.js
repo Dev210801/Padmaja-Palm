@@ -1,7 +1,6 @@
 import React, {useState} from "react";
 import "../styles/Gallery.css";
-import "../jsons/services.js"
-import {data} from '../jsons/services.js'
+import { allimgs } from "../jsons/accomadation_pics"; 
 import { useEffect } from "react";
 import { FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faCircleChevronLeft, faCircleXmark, faCircleChevronRight} from '@fortawesome/free-solid-svg-icons'
@@ -13,16 +12,16 @@ export default function Gallery() {
     setopenModel(true)
   }
   useEffect(() => {
-    console.log(data);
+    console.log(allimgs);
   },[])
   const closebtn = () => {
     setopenModel(false)
   }
   const prev = () => {
-    slideNumber === 0? setslideNumber(data.length - 1) : setslideNumber(slideNumber - 1)
+    slideNumber === 0? setslideNumber(allimgs.length - 1) : setslideNumber(slideNumber - 1)
   }
   const next = () => {
-    setslideNumber((slideNumber + 1) % data.length)
+    setslideNumber((slideNumber + 1) % allimgs.length)
   }
   
   return (
@@ -33,15 +32,15 @@ export default function Gallery() {
           <FontAwesomeIcon icon={faCircleChevronLeft} className="btnprev" onClick={prev}/>
           <FontAwesomeIcon icon={faCircleChevronRight} className="btnnxt" onClick={next}/>
           <div className="fullscreenimg">
-            <img src={data[slideNumber].imglink} alt="" />
+            <img src={allimgs[slideNumber]} alt="" />
           </div>
         </div>
       }
     <div className="outter">
       
-      {data.map((a, index) => 
-      <div className="single" key={a.id} onClick={() => handleopner(index)}>
-        <img src={a.imglink} alt="" />
+      {allimgs.map((a, index) => 
+      <div className="single" key={a.index} onClick={() => handleopner(index)}>
+        <img src={a} alt="" />
 
       </div>
       )}

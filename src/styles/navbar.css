@@ -29,7 +29,7 @@ header {
 }
 
 nav a {
-  margin: 0 2rem;
+  margin: 0 1.4rem;
   color: var(--textColor);
   text-decoration: none;
   font-size: 20px;
@@ -56,7 +56,7 @@ header .navbtn {
   opacity: 0;
 }
 
-@media only screen and (max-width: 1024px ) {
+@media only screen and (max-width: 1180px ) {
   header .navbtn {
     visibility: visible;
     opacity: 1;

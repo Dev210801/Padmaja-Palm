@@ -9,10 +9,10 @@
     margin: 0 auto;
 }
 .out{
-    background: url("../asserts/output-onlinepngtools.png");
+    /* background: url("../asserts/output-onlinepngtools.png");
     background-attachment: fixed;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     min-height: calc(100vh - 90px);
 }
 .outter .single {

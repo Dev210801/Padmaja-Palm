@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/service.css";
-import "../jsons/services.js";
-import {data} from "../jsons/services.js"
-export default function Service() {
+// import "../jsons/services.js";
+// import {data} from "../jsons/services.js"
+export default function Service({data}) {
   
   return (
     <div className="mmm">
@@ -18,7 +18,6 @@ export default function Service() {
   <p>{items.matter}</p>
 </div>
 <div className="imgser">
-  
   <img src={items.imglink} alt="" id="igsam"/>
 </div>
     </div>
