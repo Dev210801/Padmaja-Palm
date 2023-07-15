@@ -19,7 +19,6 @@ export default function Accomadation() {
         interiors, and furnishings that radiate opulence.
       </p>
       <div className="accomdiv">
-        {/* <h2>Villa</h2> */}
         <div className="villa">
           <div className="villades">
             <div className="text12">
