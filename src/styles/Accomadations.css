@@ -9,12 +9,13 @@
 }
 .villades,
 .villapics {
+  
   width: 50%;
   height: 70vh;
+  
 }
 .villades{
-  text-align: center;
-  justify-content: center;
+  padding: 3vh;
 }
 .embla {
   overflow: hidden;
@@ -30,7 +31,7 @@
   height: 70vh;
   width: 100%;
 }
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 900px) {
   .villa,
   .villarev {
     flex-direction: column;
@@ -48,23 +49,42 @@
     flex-direction: column-reverse;
   }
 }
+@media only screen and (max-width: 600px) {
+  .lis{
+    flex-direction: column;
+  }
+  .embla__slide img{
+    height: 50vh;
+  }
+  .villapics{
+    height: 50vh;
+  }
+}
 
 
-.text12 h3{
+.text12 h3, .headin{
   font-family: 'Playfair', serif;
   font-size: 3rem;
   padding-top: 3vh;
   text-align: center;
+  text-transform: uppercase;
 }
-.text12 p{
+.text12 p, .tess{
   font-size: 1.3rem;
-  padding: 3vh;
+  padding: 4vh;
   font-family: 'Nunito', sans-serif;
 }
 .text12{
   flex-direction: column;
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
   text-align: justify;
+}
+.lis{
+  display: flex;
+  justify-content: space-around;
+}
+.ameni{
+  padding: 1vh;
 }

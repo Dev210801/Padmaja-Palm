@@ -3,7 +3,8 @@ import useEmblaCarousel from "embla-carousel-react";
 import "../styles/Carousel.css";
 import Autoplay from "embla-carousel-autoplay";
 import "../jsons/accomadation_pics.js";
-import { rooms, villa, rooms2 } from "../jsons/accomadation_pics.js";
+import { rooms} from "../jsons/accomadation_pics.js";
+import { Banquet, lawn, ph } from '../jsons/venues_pics';
 export default function Venues() {
   
   const [emblaRef1] = useEmblaCarousel({ loop: true }, [Autoplay()]);
@@ -30,7 +31,7 @@ export default function Venues() {
           <div className="villapics">
             <div className="embla" ref={emblaRef1}>
               <div className="embla__container">
-                {villa.map((item, key) => (
+                {Banquet.map((item, key) => (
                   <div className="embla__slide" key={key}>
                     <img src={item} alt="" />
                   </div>
@@ -46,7 +47,7 @@ export default function Venues() {
           <div className="villapics">
             <div className="embla" ref={emblaRef2}>
               <div className="embla__container">
-                {rooms.map((item, key) => (
+                {lawn.map((item, key) => (
                   <div className="embla__slide" key={key}>
                     <img src={item} alt="" />
                   </div>
@@ -84,7 +85,7 @@ export default function Venues() {
           <div className="villapics">
             <div className="embla" ref={emblaRef3}>
               <div className="embla__container">
-                {rooms2.map((item, key) => (
+                {ph.map((item, key) => (
                   <div className="embla__slide" key={key}>
                     <img src={item} alt="" />
                   </div>

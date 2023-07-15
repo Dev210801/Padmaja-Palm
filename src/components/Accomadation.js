@@ -12,18 +12,39 @@ export default function Accomadation() {
   return (
     <div>
       <br />
+      <h3 className="headin">ROOMS</h3>
+      <p className="tess">
+        Our Villa, Premium and Superior rooms with a luxury aesthetic you will
+        adore in an oasis of peace. We offer the best exquisitely decorated
+        interiors, and furnishings that radiate opulence.
+      </p>
       <div className="accomdiv">
         {/* <h2>Villa</h2> */}
         <div className="villa">
           <div className="villades">
             <div className="text12">
-              <h3>villa</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
-                amet harum earum soluta! Molestiae sit ex harum nesciunt? Sequi
-                quia quibusdam quam culpa accusamus suscipit, ipsa minus
-                accusantium possimus.
-              </p>
+              <h3> Padmaja grand Villa </h3>
+              <div className="tess">
+                <b> No. of Bed Rooms: </b>8 <br />
+                <b> Total Area:</b> 14000 SFT <br />
+                <div className="ameni">
+                  <b> Amenities:</b> <br />
+                </div>
+                <div className="lis">
+                  <div className="lis1">
+                    <li>private lobby</li>
+                    <li>Party Place</li>
+                    <li>50 inch Tv</li>
+                    <li>Individual Casset A/C</li>
+                  </div>
+                  <div className="lis2">
+                    <li>Wi-Fi Facility </li>
+                    <li>King Size Beds </li>
+                    <li>Safe Deposit Locker</li>
+                    <li>Fridge </li>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="villapics">
@@ -54,14 +75,27 @@ export default function Accomadation() {
             </div>
           </div>
           <div className="villades">
-          <div className="text12">
-              <h3>Gold rooms</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
-                amet harum earum soluta! Molestiae sit ex harum nesciunt? Sequi
-                quia quibusdam quam culpa accusamus suscipit, ipsa minus
-                accusantium possimus.
-              </p>
+            <div className="text12">
+              <h3>premium rooms</h3>
+              <div className="tess">
+                <b> No. of Bed Rooms: </b>12 <br />
+                <b> Total Area:</b> 14000 SFT <br />
+                <div className="ameni">
+                  <b> Amenities:</b> <br />
+                </div>
+                <div className="lis">
+                  <div className="lis1">
+                    <li>King Size Beds </li>
+                    <li>50 inch Tv</li>
+                    <li>Individual Casset A/C</li>
+                  </div>
+                  <div className="lis2">
+                    <li>Wi-Fi Facility </li>
+                    <li>Safe Deposit Locker</li>
+                    <li>Fridge </li>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -70,14 +104,28 @@ export default function Accomadation() {
         {/* <h2>Villa</h2> */}
         <div className="villa">
           <div className="villades">
-          <div className="text12">
-              <h3>Premium rooms</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero ea
-                amet harum earum soluta! Molestiae sit ex harum nesciunt? Sequi
-                quia quibusdam quam culpa accusamus suscipit, ipsa minus
-                accusantium possimus.
-              </p>
+            <div className="text12">
+              <h3>superior rooms </h3>
+              <div className="tess">
+                <b> No. of Bed Rooms: </b>10 <br />
+                <b> Total Area:</b> 14000 SFT <br />
+                <div className="ameni">
+                  <b> Amenities:</b> <br />
+                </div>
+                <div className="lis">
+                  <div className="lis1">
+                    
+                    <li>King Size Beds </li>
+                    <li>50 inch Tv</li>
+                    <li>Individual Casset A/C</li>
+                  </div>
+                  <div className="lis2">
+                    <li>Wi-Fi Facility </li>
+                    <li>Safe Deposit Locker</li>
+                    <li>Fridge </li>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
           <div className="villapics">
