@@ -68,9 +68,13 @@ export default function Venues() {
             <div className="text12">
               <h5>Lawn 1</h5>
               <div className="tess">
+                <div className="lawn1">
                 <b> Area: </b>Out Door <br />
                 <b> Seating:</b> 3000 <br />
                 <b> Total Area:</b> 70,000 SFT <br />
+                  
+                </div>
+                    {/* <br /> */}
                 <div className="lis">
                   <div className="lis1">
                     <h5>Lawn 2</h5>
@@ -145,7 +149,6 @@ export default function Venues() {
             <div className="text12">
               <h3>Pool</h3>
               <div className="tess">
-                
                 <b> Seating:</b> 100 <br />
                 <b> Total Area:</b> 6,300 SFT <br />
                 <div className="ameni">
@@ -154,10 +157,9 @@ export default function Venues() {
                 <div className="lis">
                   <div className="lis1">
                     <li>Swimming Pool</li>
-                    <li>Jacuzzi</li>
+                    <li>Indoor A/C </li>
                   </div>
                   <div className="lis2">
-                    <li>Indoor A/C </li>
                     <li>Dining Space </li>
                   </div>
                 </div>

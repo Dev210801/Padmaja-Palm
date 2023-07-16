@@ -59,6 +59,9 @@
   .villapics{
     height: 50vh;
   }
+  .tess{
+    text-align: center;
+  }
 }
 
 
@@ -80,6 +83,10 @@
   font-size: 1.3rem;
   padding: 4vh;
   font-family: 'Nunito', sans-serif;
+  /* text-align: center; */
+}
+.lawn1{
+  text-align: center;
 }
 .text12{
   flex-direction: column;
