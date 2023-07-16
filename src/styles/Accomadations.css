@@ -69,6 +69,13 @@
   text-align: center;
   text-transform: uppercase;
 }
+.text12 h5{
+  font-family: 'Playfair', serif;
+  padding-top: 3vh;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
 .text12 p, .tess{
   font-size: 1.3rem;
   padding: 4vh;

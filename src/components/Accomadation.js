@@ -24,7 +24,8 @@ export default function Accomadation() {
             <div className="text12">
               <h3> Padmaja grand Villa </h3>
               <div className="tess">
-                <b> No. of Bed Rooms: </b>8 <br />
+                <b> No. of Bed Rooms: </b>8 (G + 3 floors)
+                <br />
                 <b> Total Area:</b> 14000 SFT <br />
                 <div className="ameni">
                   <b> Amenities:</b> <br />
@@ -77,7 +78,7 @@ export default function Accomadation() {
             <div className="text12">
               <h3>premium rooms</h3>
               <div className="tess">
-                <b> No. of Bed Rooms: </b>12 <br />
+                <b> No. of Bed Rooms: </b>10 <br />
                 <b> Total Area:</b> 14000 SFT <br />
                 <div className="ameni">
                   <b> Amenities:</b> <br />
@@ -87,6 +88,7 @@ export default function Accomadation() {
                     <li>King Size Beds </li>
                     <li>50 inch Tv</li>
                     <li>Individual Casset A/C</li>
+                    <li>Banquet Hall</li>
                   </div>
                   <div className="lis2">
                     <li>Wi-Fi Facility </li>
@@ -106,17 +108,17 @@ export default function Accomadation() {
             <div className="text12">
               <h3>superior rooms </h3>
               <div className="tess">
-                <b> No. of Bed Rooms: </b>10 <br />
+                <b> No. of Bed Rooms: </b>12 <br />
                 <b> Total Area:</b> 14000 SFT <br />
                 <div className="ameni">
                   <b> Amenities:</b> <br />
                 </div>
                 <div className="lis">
                   <div className="lis1">
-                    
                     <li>King Size Beds </li>
                     <li>50 inch Tv</li>
                     <li>Individual Casset A/C</li>
+                    <li>Break Fast Area</li>
                   </div>
                   <div className="lis2">
                     <li>Wi-Fi Facility </li>
