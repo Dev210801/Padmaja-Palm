@@ -1,4 +1,4 @@
-import img1 from "../asserts/resortpics/rooms/1.JPG"
+import img1 from "../asserts/resortpics/rooms/4.JPG"
 import img2 from "../asserts/resortpics/rooms/2.JPG"
 import img3 from "../asserts/resortpics/rooms/3.JPG"
 import img5 from "../asserts/resortpics/rooms/5.JPG"
