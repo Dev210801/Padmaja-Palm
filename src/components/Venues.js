@@ -9,12 +9,14 @@ export default function Venues() {
   const [emblaRef1] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef2] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef3] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  const [emblaRef5] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  const [emblaRef6] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef4] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   return (
     <div>
       <br />
-      <div className="accomdiv">
-        {/* <h2>Villa</h2> */}
+                                          {/* banquet hall */}
+      
         <div className="villa">
           <div className="villades">
             <div className="text12">
@@ -49,9 +51,10 @@ export default function Venues() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="accomdiv">
-        {/* <h2>Villa</h2> */}
+     
+
+                                               {/* Lawn 1  */}
+      
         <div className="villarev">
           <div className="villapics">
             <div className="embla" ref={emblaRef2}>
@@ -66,36 +69,87 @@ export default function Venues() {
           </div>
           <div className="villades">
             <div className="text12">
-              <h5>Lawn 1</h5>
+              <h3>Lawn 1</h3>
               <div className="tess">
-                <div className="lawn1">
                 <b> Area: </b>Out Door <br />
                 <b> Seating:</b> 3000 <br />
                 <b> Total Area:</b> 70,000 SFT <br />
-                  
+              </div>
+            </div>
+          </div>
+        </div>
+    
+                                                {/* lawn 2 */}
+      <div className="villa">
+        <div className="villades">
+          <div className="text12">
+            <h3>Lawn 2</h3>
+            <div className="tess">
+              <b> Area: </b>Out Door <br />
+              <b> Seating:</b> 1000 <br />
+              <b> Total Area:</b> 41,664 SFT <br />
+              <div className="ameni">
+                <b> Amenities:</b> <br />
+              </div>
+              <div className="lis">
+                <div className="lis1">
+                  <li>Fully Air Conditioned</li>
                 </div>
-                    {/* <br /> */}
-                <div className="lis">
-                  <div className="lis1">
-                    <h5>Lawn 2</h5>
-                    <b> Area: </b>Out Door <br />
-                    <b> Seating:</b> 1000 <br />
-                    <b> Total Area:</b> 41,664 SFT <br />
-                  </div>
-                  <div className="lis2">
-                    <h5>Lawn 3</h5>
-                    <b> Area: </b>Out Door <br />
-                    <b> Seating:</b> 1200 <br />
-                    <b> Total Area:</b> 58,000 SFT <br />
-                  </div>
+                <div className="lis2">
+                  <li>Two waiting halls </li>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="villapics">
+          <div className="embla" ref={emblaRef6}>
+            <div className="embla__container">
+              {lawn.map((item, key) => (
+                <div className="embla__slide" key={key}>
+                  <img src={item} alt="" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+                                            {/* villa 3 */}
+      <div className="villarev">
+        <div className="villapics">
+          <div className="embla" ref={emblaRef5}>
+            <div className="embla__container">
+              {lawn.map((item, key) => (
+                <div className="embla__slide" key={key}>
+                  <img src={item} alt="" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+        <div className="villades">
+          <div className="text12">
+            <h3>Lawn 3</h3>
+            <div className="tess">
+              <b> Area: </b>Out Door <br />
+              <b> Seating:</b> 1200 <br />
+              <b> Total Area:</b> 58,000 SFT <br />
+              <div className="ameni">
+                <b> Amenities:</b> <br />
+              </div>
+              <div className="lis">
+                <div className="lis1">
+                  <li>Fully Air Conditioned</li>
+                </div>
+                <div className="lis2">
+                  <li>Two waiting halls </li>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="accomdiv">
-        {/* <h2>Villa</h2> */}
+                                            {/* party hall */}
         <div className="villa">
           <div className="villades">
             <div className="text12">
@@ -130,9 +184,11 @@ export default function Venues() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="accomdiv">
-        {/* <h2>Villa</h2> */}
+     
+
+                                                  {/* pool */}
+
+
         <div className="villarev">
           <div className="villapics">
             <div className="embla" ref={emblaRef4}>
@@ -167,7 +223,7 @@ export default function Venues() {
             </div>
           </div>
         </div>
-      </div>
+
       <br />
     </div>
   );

@@ -54,10 +54,10 @@
     flex-direction: column;
   }
   .embla__slide img{
-    height: 50vh;
+    height: 40vh;
   }
   .villapics{
-    height: 50vh;
+    height: 40vh;
   }
   .tess{
     text-align: center;
@@ -84,9 +84,6 @@
   padding: 4vh;
   font-family: 'Nunito', sans-serif;
   /* text-align: center; */
-}
-.lawn1{
-  text-align: center;
 }
 .text12{
   flex-direction: column;
