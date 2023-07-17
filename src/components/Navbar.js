@@ -10,6 +10,7 @@ export default function Navbar() {
   const navref = useRef();
   const showNavbar = () => {
     navref.current.classList.toggle("responsive_nav");
+    window.scrollTo(0,0);
   };
   const [color, setcolor] = useState("transparent");
   function setscroll() {
@@ -19,11 +20,16 @@ export default function Navbar() {
       setcolor("transparent");
     }
   }
+  const scrolltop = () =>{
+    window.scrollTo(0,0);
+  }
   window.addEventListener("scroll", setscroll);
   return (
     <div className="navvv">
       <header style={{ background: color}}>
+        <NavLink onClick={scrolltop} to="/">
       <img src={logo} alt="" className="img1" />
+        </NavLink>
         <nav ref={navref}>
           <NavLink onClick={showNavbar} to="/">Home</NavLink>
           <NavLink onClick={showNavbar} to="about">About</NavLink>
