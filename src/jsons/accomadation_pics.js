@@ -22,12 +22,36 @@ import img55 from "../asserts/resortpics/5.jpg"
 import img66 from "../asserts/resortpics/8.jpg"
 import img77 from "../asserts/resortpics/1.jpg"
 import img88 from "../asserts/resortpics/6.jpg"
-import { Banquet, ph, lawn } from "./venues_pics"
+// import { Banquet, ph, lawn, lawn22, lawn33 } from "./venues_pics"
+import bank1 from "../asserts/resortpics/banquet hall/2.JPG"
+import bank2 from "../asserts/resortpics/banquet hall/6.jpg"
+import bank3 from "../asserts/resortpics/banquet hall/3.JPG"
+import lawn1 from "../asserts/resortpics/lawn 1/1.JPG"
+import lawn4 from "../asserts/resortpics/lawn 1/4.JPG"
+// import lawn2 from "../asserts/resortpics/lawn 1/2.JPG"
+import lawn5 from "../asserts/resortpics/lawn 1/5.JPG"
+import lawn7 from "../asserts/resortpics/lawn 1/7.JPG"
+import lawn6 from "../asserts/resortpics/lawn 1/6.JPG"
+import lawn3 from "../asserts/resortpics/lawn 1/3.JPG"
+import ph1 from "../asserts/resortpics/party hall/1.JPG"
+import ph2 from "../asserts/resortpics/party hall/2.JPG"
+import ph3 from "../asserts/resortpics/party hall/3.JPG"
+import lawn8 from "../asserts/resortpics/3.jpg"
+import kit1 from "../asserts/resortpics/kitchen/1.JPG"
+import kit2 from "../asserts/resortpics/kitchen/2.JPG"
+import parking from "../asserts/resortpics/Parking/1.JPG"
+export const Banquet = [ bank2, bank3, bank1];
+export const lawn = [lawn1, lawn3, lawn5];
+export const lawn22 = [lawn8, lawn4];
+export const lawn33 = [lawn6, lawn7];
+export const ph = [ph1, ph2, ph3];
 export const rooms = [img1, img3, img5];
 export const villa = [villa1, villa2, villa3, villa6];
 export const rooms2 = [room1, room2, room3];
-const allimgs = [img11, img22, img33, img44, img55, img66, img77, img88,  img1, img2, img3, img0, img5, villa1, villa2, villa3, villa4, villa5, villa6, villa7, room3, room4, room1, room2];
-allimgs.concat(lawn);
-allimgs.concat(ph);
-allimgs.concat(Banquet);
+const allimgs = [villa1, villa2, villa3, villa4, villa5, villa6, villa7, img5, img0, room3, room4, lawn1, lawn3, lawn5, bank2, bank3, bank1, lawn4, lawn6, lawn7, ph1, ph2, ph3,  img5, img11, img22, img33, img44, img55, img66, img77, img88, img1, img2, img1, img3, img0, kit1, kit2, parking];
+// allimgs.concat(lawn);
+// allimgs.concat(ph);
+// allimgs.concat(Banquet);
+// allimgs.concat(lawn22);
+// allimgs.concat(lawn33);
 export {allimgs};

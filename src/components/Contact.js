@@ -17,7 +17,7 @@ export default function Contact() {
 Landmark : Mamidpally to Jalpally Rd, Hyderabad, Telangana 500005.</h5>
       <h6>Nearby Rajiv Gandhi International Airport, And Nehru The Outer Ring Road is just a few minutes away.</h6>
     <div className="mapset1">
-      <Mapsetup/>
+      <Mapsetup zooml={8}/>
     </div>
     </div>
   );

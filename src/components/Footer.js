@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="foot">
         <div className="comp1">
           <div className="map">
-            <Mapsetup/>
+            <Mapsetup zooml={13.7}/>
              </div>
         </div>
         <div className="comp2">

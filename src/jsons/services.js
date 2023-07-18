@@ -4,7 +4,7 @@ import img3 from "../asserts/resortpics/4.jpg"
 import img4 from "../asserts/resortpics/3.jpg"
 import img5 from "../asserts/resortpics/5.jpg"
 import img6 from "../asserts/resortpics/8.jpg"
-import img7 from "../asserts/resortpics/1.jpg"
+import img7 from "../asserts/resortpics/kitchen/1.JPG"
 import img8 from "../asserts/resortpics/6.jpg"
 
 
@@ -18,7 +18,7 @@ export const  data = [
     {
       "id": 2,
       "title": "Destinations Wedding ",
-      "matter": "The Padmaja Palm Groves Resort Conventions is the ideal location for a destination wedding. It has a variety of indoor and outdoor venues, an award-winning catering team, 46 Villas, 24 Premium Rooms, and 1 Nizami Suite for the wedding party, a dedicated Event Coordinator to assist and take care of all your wedding requirements, and a truly hospitable team committed to making it a rich experience.",
+      "matter": "The Padmaja Palm Groves Resort Conventions is the ideal location for a destination wedding. It has a variety of indoor and outdoor venues, an award-winning catering team, Villas, Premium Rooms, and Nizami Suite for the wedding party, a dedicated Event Coordinator to assist and take care of all your wedding requirements, and a truly hospitable team committed to making it a rich experience.",
       "imglink": img2
     },
     {

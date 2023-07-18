@@ -36,6 +36,6 @@
 
 .mapset1{
     height: 50vw;
-    width: 100vw;
-    background-color: aquamarine;
+    width: 100%;
+    /* background-color: aquamarine; */
 }
