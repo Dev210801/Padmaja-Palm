@@ -7,8 +7,8 @@ const containerStyle = {
 };
 
 const center = {
-  lat: 17.271741838088264,  
-  lng: 78.44992834722157
+  lat: 17.271751966159943, 
+  lng: 78.44995272534423
 };
 
 function MyComponent({zooml}) {
