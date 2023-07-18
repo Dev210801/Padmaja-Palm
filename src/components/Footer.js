@@ -8,13 +8,13 @@ export default function Footer() {
   const scrolltopp = () => {
     window.scrollTo(0,0);
   }
- 
+  
   return (
     <div className="footer">
       <div className="foot">
         <div className="comp1">
           <div className="map">
-            <Mapsetup zooml={13.7}/>
+            <Mapsetup zooml={14} />
              </div>
         </div>
         <div className="comp2">
