@@ -118,7 +118,7 @@ export default function Accomadation() {
                     <li>King Size Beds </li>
                     <li>50 inch Tv</li>
                     <li>Individual Casset A/C</li>
-                    <li>Break Fast Area</li>
+                    <li>Breakfast Area</li>
                   </div>
                   <div className="lis2">
                     <li>Wi-Fi Facility </li>
