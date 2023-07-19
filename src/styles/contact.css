@@ -6,9 +6,23 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  animation: focus-in-expand 1s;
   gap: 1rem;
 }
+@keyframes focus-in-expand {
+  0% {
+     
+
+      filter: blur(5px);
+      opacity: 0;
+  }
+
+  100% {
+      filter: blur(0px);
+      opacity: 1;
+  }
+}
+
 .ss {
   text-transform: uppercase;
   text-decoration: underline;

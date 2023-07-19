@@ -10,7 +10,7 @@ export default function Accomadation() {
   const [emblaRef1] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef4] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   return (
-    <div>
+    <div className="mainaccom">
       <br />
       <h3 className="headin">ROOMS</h3>
       <p className="tess">

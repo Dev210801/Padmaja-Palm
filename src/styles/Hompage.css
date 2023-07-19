@@ -9,6 +9,16 @@ video {
   left: 0;
   z-index: -1;
   filter: opacity(70%);
+  animation: fadein 3s;
+}
+@keyframes fadein {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+  
 }
 .homepagetext {
   height: calc(100vh - 90px);

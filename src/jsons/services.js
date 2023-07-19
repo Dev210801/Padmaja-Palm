@@ -12,13 +12,13 @@ export const  data = [
     {
       "id": 2,
       "title": "Destination Weddings",
-      "matter": "The Padmaja Palm Groves Resort Conventions is the ideal location for a destination wedding. It has a variety of indoor and outdoor venues, an award-winning catering team, Villas, Premium Rooms, and Nizami Suite for the wedding party, a dedicated Event Coordinator to assist and take care of all your wedding requirements, and a truly hospitable team committed to making it a rich experience.",
+      "matter": "Indian weddings are traditionally multi-day affairs and involve many intricate ceremonies of sangeet, mehndi, cocktail parties, receptions and the marriage itself. We have the space to ensure that every wedding is memorable and that each moment is cherished. We also assign a dedicated event coordinator to assist and take care of all your wedding requirements, as well as a truly hospitable team committed to making it a rich experience.",
       "imglink": img2
     },
     {
       "id": 3,
       "title": "CORPORATE",
-      "matter": "Modern corporate meeting rooms in hotels, lavish banquet halls, and conference sites with lodging are all offered by Padmaja Palm Groves Resort Conventions. The greatest conference venues in India are those of ours. We have hotels with function rooms, corporate meeting facilities, and venues for business meetings to suit your demands, whether you need them for high-profile meetings or seminars that call for flawless corporate meeting venues, for product launches in hotel conference facilities",
+      "matter": "Modern corporate meeting rooms in hotels, lavish banquet halls, and conference sites with lodging are all offered by us. We have hotels with function rooms, corporate meeting facilities, and venues for business meetings to suit your demands. Whether you need them for high-profile meetings or seminars that call for flawless corporate meeting venues or for product launches and promotions.",
       "imglink": img3
     },
     {
@@ -36,13 +36,13 @@ export const  data = [
     {
       "id": 6,
       "title": "Kitchens ",
-      "matter": "With the best ingredients, time-honored methods, and modern flair, we celebrate all types of food. We have professional chefs, and their passion is to produce the best modern dishes. Our food is a culinary fusion of signature dishes and an Only At selection made especially for each location, with international outposts in some of the world's most lively cities.",
+      "matter": "We provide the best ingredients, time-honoured methods, and modern flair, and we celebrate all types of food. We have professional chefs, and their passion is to produce the best modern dishes. Our food is a culinary fusion of signature dishes and exclusive selections made as per your dreams.",
       "imglink": img7
     },
     {
       "id": 7,
       "title": "Event management",
-      "matter": "We provide end to end solutions for all events and specialized in customizing your ideas and with the goal of creating unforgettable memories.",
+      "matter": "We provide end-to-end solutions for all events and specialise in customising your ideas with the goal of creating unforgettable memories.",
       "imglink": img6
     },{
       "id": 8,

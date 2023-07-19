@@ -1,30 +1,40 @@
-@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alkatra:wght@700&display=swap");
 
+.aboutflex {
+  min-height: calc(100vh - 90px);
+  animation: fadeIn 1.5s;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(5px);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+}
+.heading,
+.paras {
+  width: 90%;
+  text-align: justify;
+  padding: 1rem;
+}
+.us {
+  margin-top: 3rem;
+  font-weight: bold;
+}
+.head {
+  font-size: 6vw;
+  text-transform: capitalize;
+  font-family: "Alkatra", cursive;
+}
 
-.aboutflex{
-    min-height: calc(100vh - 90px);
-    
-}
-.heading, .paras {
-    width: 90%;
-    text-align: justify;
-    padding: 1rem;
-}
-.us{
-    margin-top: 3rem;
-    font-weight: bold;
-    
-}
-.head{
-    font-size: 6vw;
-    text-transform: capitalize;
-    font-family: 'Alkatra', cursive;
-}
-
-.para1, .para2 {
-    margin-top: 2rem;
-    font-weight: bold;
-    color: rgb(69, 69, 69);
+.para1,
+.para2 {
+  margin-top: 2rem;
+  font-weight: bold;
+  color: rgb(69, 69, 69);
 }
 /* .carousel{
     width: 90vw;
@@ -33,18 +43,15 @@
 } */
 
 @media only screen and (max-width: 1000px) {
+  .aboutflex {
+    display: flex;
+    flex-direction: column;
+  }
 
-    .aboutflex{
-        display:flex;
-        flex-direction: column;
-        
-    }
- 
-    .heading, .para1, .para2 {
-        text-align: justify;
-        /* padding: 1rem; */
-    }
-    .para1, .para2 {
-        /* padding: 0 2rem;     */
-    }
+  .heading,
+  .para1,
+  .para2 {
+    text-align: justify;
+    /* padding: 1rem; */
+  }
 }

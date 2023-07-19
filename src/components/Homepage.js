@@ -4,7 +4,7 @@ import HomeAbt from './HomeAbt';
 import "../styles/Hompage.css"
 export default function Homepage() {
   return (
-    <div>
+    <div className='mainhome'>
         <video src={vid} autoPlay loop muted></video>
       <div className="homepagetext">
       <div className="container">

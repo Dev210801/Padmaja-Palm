@@ -10,11 +10,9 @@ export default function About() {
       </div>
       <div className="paras">
         <div className="para1">
-          {"\u00A0"} Padmaja Palm Groves Resort Conventions located in Hyderabad
-          close to Airport is rated among best Conventions and places to
-          celebrate the culture in Hyderabad. This Location is very suitable for
-          Destination Weddings, Parties, Conferences, Concerts, Exhibitions and
-          what not.
+          {"\u00A0"} Padmaja Palm Groves Resort Conventions located in
+          Hyderabad, is close to the airport and rated among the best
+          conventions and places to celebrate the culture in Hyderabad.
         </div>
         <div className="para2">
           We provide top-notch amenities, including grand event halls, lush
