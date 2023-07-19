@@ -12,7 +12,7 @@ export default function Accomadation() {
   return (
     <div className="mainaccom">
       <br />
-      <h3 className="headin">ROOMS</h3>
+      <h3 className="headin">ACCOMADATION</h3>
       <p className="tess">
         Our Villa, Premium and Superior rooms with a luxury aesthetic you will
         adore in an oasis of peace. We offer the best exquisitely decorated

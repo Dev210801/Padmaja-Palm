@@ -3,7 +3,7 @@ import "./App.css";
 import Homepage from "./components/Homepage";
 import Headroom from "react-headroom";
 import { Routes, Route } from "react-router-dom";
-import About from "./components/About.js";
+// import About from "./components/About.js";
 import Service from "./components/Service";
 import Gallery from "./components/Gallery";
 import Contact from "./components/Contact";
@@ -21,7 +21,7 @@ function App() {
       </Headroom>
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="about" element={<About />} />
+        {/* <Route path="about" element={<About />} /> */}
         <Route path="service" element={<Service data = {data} />} />
         <Route path="accommodation" element={<Accomadation/>}/>
         <Route path="venues" element={<Venues/>}/>

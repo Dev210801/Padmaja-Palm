@@ -3,14 +3,16 @@ import "../styles/HomeAbt.css";
 import Carousel from "./Carousel";
 import Counter from "./Counter";
 import "../jsons/Homecarousel";
+import About from "./About";
 import { homecaro } from "../jsons/Homecarousel";
 
 export default function HomeAbt() {
   return (
     <div className="homabt">
       <div className="homecar">
+        <About />
         <div className="text">
-          <h2>Padmaja Palm Groves</h2>
+          {/* <h2>Padmaja Palm Groves</h2> */}
           <div className="matter">
             Padmaja Palm Groves Resort Conventions, which spans 18+ acres, is a
             diverse complex where people come together to celebrate culture,
@@ -26,7 +28,6 @@ export default function HomeAbt() {
             by every bite of our cuisine.
           </div>
         </div>
-
         <div className="caras">
           <Carousel homecaro={homecaro} />
         </div>

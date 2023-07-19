@@ -32,7 +32,7 @@ export default function Navbar() {
         </NavLink>
         <nav ref={navref}>
           <NavLink onClick={showNavbar} to="/">Home</NavLink>
-          <NavLink onClick={showNavbar} to="about">About</NavLink>
+          {/* <NavLink onClick={showNavbar} to="about">About</NavLink> */}
           <NavLink onClick={showNavbar} to="service">Services</NavLink>
           <NavLink onClick={showNavbar} to="accommodation">Accommodation</NavLink>
           <NavLink onClick={showNavbar} to="venues">Venues</NavLink>

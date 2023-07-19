@@ -4,9 +4,9 @@
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    animation: focus-in-expand 1s;
 }
 .mmm{
+    animation: focus-in-expand 1.5s;
     /* background: url("../asserts/output-onlinepngtools.png");
     background-attachment: fixed;
     background-position: center;
