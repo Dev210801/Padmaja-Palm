@@ -12,6 +12,7 @@
 .visits{
     font-size: 1.5rem;
     font-weight: lighter;
+    text-transform: capitalize;
     
 }
 
