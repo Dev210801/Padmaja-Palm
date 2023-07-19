@@ -62,6 +62,7 @@
   .tess{
     text-align: center;
   }
+  
 }
 
 
@@ -98,4 +99,18 @@
 }
 .ameni{
   padding: 1vh;
+  text-align: center;
+}
+
+.lawnn{
+  /* justify-content: center; */
+  text-align: center;
+  align-items: center;
+
+  /* margin-top: 13%; */
+}
+
+.la{
+  justify-content: center;
+  align-items: center;
 }

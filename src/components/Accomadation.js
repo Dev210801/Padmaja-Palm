@@ -19,7 +19,7 @@ export default function Accomadation() {
         interiors, and furnishings that radiate opulence.
       </p>
       <div className="accomdiv">
-        <div className="villa">
+        <div className="villarev">
           <div className="villades">
             <div className="text12">
               <h3> Padmaja grand Villa </h3>
@@ -62,7 +62,7 @@ export default function Accomadation() {
       </div>
       <div className="accomdiv">
         {/* <h2>Villa</h2> */}
-        <div className="villarev">
+        <div className="villa">
           <div className="villapics">
             <div className="embla" ref={emblaRef2}>
               <div className="embla__container">
@@ -103,13 +103,13 @@ export default function Accomadation() {
       </div>
       <div className="accomdiv">
         {/* <h2>Villa</h2> */}
-        <div className="villa">
+        <div className="villarev">
           <div className="villades">
             <div className="text12">
               <h3>superior rooms </h3>
               <div className="tess">
                 <b> No. of Bed Rooms: </b>12 <br />
-                <b> Total Area:</b> 14000 SFT <br />
+                <b> Lobby Space:</b> 1800 SFT <br />
                 <div className="ameni">
                   <b> Amenities:</b> <br />
                 </div>

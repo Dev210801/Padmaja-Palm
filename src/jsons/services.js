@@ -1,4 +1,4 @@
-import img1 from "../asserts/resortpics/Marriage.jpg"
+// import img1 from "../asserts/resortpics/Marriage.jpg"
 import img2 from "../asserts/resortpics/2.jpg"
 import img3 from "../asserts/resortpics/4.jpg"
 import img4 from "../asserts/resortpics/3.jpg"
@@ -9,12 +9,6 @@ import img8 from "../asserts/resortpics/6.jpg"
 
 
 export const  data = [
-    {
-      "id": 1,
-      "title": "Weddings",
-      "matter": "Indian weddings are traditionally multi-day affairs, and involve many intricate ceremonies of sangeet, mehendi, cocktail parties, receptions and the marriage itself, we have the space to ensure that every wedding is a memorable one and each moment is cherished. ",
-      "imglink": img1
-    },
     {
       "id": 2,
       "title": "Destinations Wedding ",
