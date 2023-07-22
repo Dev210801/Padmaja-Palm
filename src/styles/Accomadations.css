@@ -11,6 +11,9 @@
   animation: focus-in-expand 1s;
 
 }
+.embla__slide{
+  animation: focus-in-expand 2s;
+}
 @keyframes focus-in-expand {
   0% {
      

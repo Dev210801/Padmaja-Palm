@@ -35,6 +35,7 @@
 }
 .single img {
 max-width: 100%;
+/* animation: focus-in-expand 2s; */
 }
 .single img:hover {
 transform: scale(1.02);
