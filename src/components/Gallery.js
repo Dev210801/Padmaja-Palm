@@ -12,7 +12,7 @@ export default function Gallery() {
     setopenModel(true)
   }
   useEffect(() => {
-    console.log(allimgs);
+    // console.log(allimgs);
   },[])
   const closebtn = () => {
     setopenModel(false)
@@ -39,7 +39,7 @@ export default function Gallery() {
     <div className="outter">
       
       {allimgs.map((a, index) => 
-      <div className="single" key={a.index} onClick={() => handleopner(index)}>
+      <div className="single" key={index} onClick={() => handleopner(index)}>
         <img src={a} alt="" />
 
       </div>

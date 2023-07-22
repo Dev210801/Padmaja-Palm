@@ -14,13 +14,14 @@ import Venues from "./components/Venues";
 import {data} from "./jsons/services";
 
 function App() {
+  
   return (
     <div className="homepage">
       <Headroom>
         <Navbar />
       </Headroom>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<Homepage /> } />
         {/* <Route path="about" element={<About />} /> */}
         <Route path="service" element={<Service data = {data} />} />
         <Route path="accommodation" element={<Accomadation/>}/>
@@ -28,6 +29,7 @@ function App() {
         <Route path="gallery" element={<Gallery />} />
         <Route path="contact" element={<Contact />} />
       </Routes>
+     
       <Footer/>
     </div>
   );
