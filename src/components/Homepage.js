@@ -1,5 +1,5 @@
 import React from 'react';
-import vid from "../asserts/bgvideo.mp4";
+import vid from "../asserts/bgv1.mp4";
 import HomeAbt from './HomeAbt';
 import "../styles/Hompage.css"
 export default function Homepage() {

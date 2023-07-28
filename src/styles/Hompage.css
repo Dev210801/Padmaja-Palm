@@ -8,7 +8,7 @@ video {
   top: 0;
   left: 0;
   z-index: -1;
-  filter: opacity(70%);
+  /* filter: opacity(90%); */
   animation: fadein 3s;
 }
 @keyframes fadein {
@@ -55,7 +55,7 @@ video {
 .container .box .title h1 {
 
   color: #000000;
-  opacity: 0.7;
+  /* opacity: 0.7; */
   font-weight: lighter;
   font-size: 2rem;
   -webkit-animation: mainFadeIn 2s forwards;
@@ -67,6 +67,7 @@ video {
   font-family: 'Unbounded', cursive;
   align-items: Top;
   margin-top: calc(0vh - 90px);
+  /* font-weight: 500; */
   position: relative;
 }
 .container .box .role {
@@ -93,7 +94,7 @@ video {
   opacity: 0;
   font-weight: bold;
   font-family: "Lato";
-  color: #452f2f;
+  color: #350505;
   font-family: 'Cinzel', serif;
   font-size: 3rem;
   text-transform: uppercase;
