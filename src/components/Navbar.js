@@ -12,12 +12,12 @@ export default function Navbar() {
     navref.current.classList.toggle("responsive_nav");
     window.scrollTo(0,0);
   };
-  const [color, setcolor] = useState("transparent");
+  const [color, setcolor] = useState("rgba(255, 255, 255, 0.6)");
   function setscroll() {
     if (window.scrollY >= 10) {
       setcolor("white");
     } else {
-      setcolor("transparent");
+      setcolor("rgba(255, 255, 255, 0.6)");
     }
   }
   const scrolltop = () =>{
