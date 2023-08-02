@@ -15,6 +15,7 @@ function MyComponent({zooml}) {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
     googleMapsApiKey: "AIzaSyAlEJx5IPlZtnXPiZYbov4sabgZOtbgqjM"
+    // AIzaSyAlEJx5IPlZtnXPiZYbov4sabgZOtbgqjM
   })
 
   const [, setMap] = React.useState(null)
