@@ -4,9 +4,12 @@ import useEmblaCarousel from "embla-carousel-react";
 import "../styles/Carousel.css";
 import Autoplay from "embla-carousel-autoplay";
 import "../jsons/accomadation_pics.js";
-import { rooms, villa, rooms2 } from "../jsons/accomadation_pics.js";
+// import image from "../asserts/resortpics/rooms/1.JPG"
+import { rooms, villa, rooms2, exerooms } from "../jsons/accomadation_pics.js";
 export default function Accomadation() {
-  const [emblaRef2] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  
+  const [emblaRef2] = useEmblaCarousel({loop: true}, [Autoplay()]);
+  const [emblaRef25] = useEmblaCarousel({loop: true}, [Autoplay()]);
   const [emblaRef1] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef4] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   return (
@@ -66,11 +69,11 @@ export default function Accomadation() {
           <div className="villapics">
             <div className="embla" ref={emblaRef2}>
               <div className="embla__container">
-                {rooms.map((item, key) => (
-                  <div className="embla__slide" key={key}>
-                    <img src={item} alt="" />
-                  </div>
-                ))}
+               {rooms.map((item, key) => (
+                <div className="embla__slide" key={key}>
+                  <img src={item} alt="" />
+                </div>
+               ))}
               </div>
             </div>
           </div>
@@ -78,8 +81,9 @@ export default function Accomadation() {
             <div className="text12">
               <h3>premium rooms</h3>
               <div className="tess">
-                <b> No. of Bed Rooms: </b>10 <br />
-                <b> Total Area:</b> 14000 SFT <br />
+                <b> No. of Bed Rooms: </b>12 <br />
+                <b> Room Size:</b> 22' X 16'5" - 363 SFT <br />
+                <b> Lobby Area:</b> 1800 SFT <br />
                 <div className="ameni">
                   <b> Amenities:</b> <br />
                 </div>
@@ -94,6 +98,8 @@ export default function Accomadation() {
                     <li>Wi-Fi Facility </li>
                     <li>Safe Deposit Locker</li>
                     <li>Fridge </li>
+
+                    <li>private lobby</li>
                   </div>
                 </div>
               </div>
@@ -108,8 +114,8 @@ export default function Accomadation() {
             <div className="text12">
               <h3>superior rooms </h3>
               <div className="tess">
-                <b> No. of Bed Rooms: </b>12 <br />
-                <b> Lobby Space:</b> 1800 SFT <br />
+                <b> No. of Bed Rooms: </b>10 <br />
+                <b> Room Size:</b> - <br />
                 <div className="ameni">
                   <b> Amenities:</b> <br />
                 </div>
@@ -118,7 +124,6 @@ export default function Accomadation() {
                     <li>King Size Beds </li>
                     <li>50 inch Tv</li>
                     <li>Individual Casset A/C</li>
-                    <li>Breakfast Area</li>
                   </div>
                   <div className="lis2">
                     <li>Wi-Fi Facility </li>
@@ -142,6 +147,52 @@ export default function Accomadation() {
           </div>
         </div>
       </div>
+      
+      
+      <div className="accomdiv">
+        {/* <h2>Villa</h2> */}
+        <div className="villa">
+          <div className="villapics">
+            <div className="embla" ref={emblaRef25}>
+              <div className="embla__container">
+                
+              {exerooms.map((item, key) => (
+                  <div className="embla__slide" key={key}>
+                    <img src={item} alt="" />
+                  </div>
+                ))}
+                
+              </div>
+            </div>
+          </div>
+          <div className="villades">
+            <div className="text12">
+              <h3>Executive rooms</h3>
+              <h4 className="ameni" style={{color: 'red'}}>(Under Contruction expected by 31st Dec 2023)</h4>
+              <div className="tess">
+                <b> No. of Bed Rooms: </b>40 <br />
+                <b> Room Size:</b> - <br />
+                <div className="ameni">
+                  <b> Amenities:</b> <br />
+                </div>
+                <div className="lis">
+                  <div className="lis1">
+                    <li>King Size Beds </li>
+                    <li>50 inch Tv</li>
+                    
+                    
+                  </div>
+                  <div className="lis2">
+                    <li>Wi-Fi Facility </li>
+                    <li>Individual Casset A/C</li>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <br />
     </div>
   );

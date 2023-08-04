@@ -14,8 +14,8 @@ const center = {
 function MyComponent({zooml}) {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyAlEJx5IPlZtnXPiZYbov4sabgZOtbgqjM"
-    // AIzaSyAlEJx5IPlZtnXPiZYbov4sabgZOtbgqjM
+    googleMapsApiKey: "AIzaSyAQMRfBHg6Wayhqx-oA9zjfb5wwl6k5B3Y"
+    
   })
 
   const [, setMap] = React.useState(null)

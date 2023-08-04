@@ -23,7 +23,7 @@ export const  data = [
     },
     {
       "id": 3,
-      "title": "Parties/ Shootings",
+      "title": "Parties/ Photo Shoots",
       "matter": "We welcome everyone who wants to gather with loved ones to celebrate any occasion. We provide you with the ideal location, whether it be for birthday celebrations, yearly events, or shootings.",
       "imglink": img4
     },
