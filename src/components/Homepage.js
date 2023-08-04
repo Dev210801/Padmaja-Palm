@@ -5,7 +5,7 @@ import "../styles/Hompage.css"
 export default function Homepage() {
   return (
     <div className='mainhome'>
-        <video src={vid} autoPlay loop muted></video>
+        <video src={vid} autoPlay loop muted playsinline="true" disablePictureInPicture="true"></video>
       <div className="homepagetext">
       <div className="container">
    <div className="box">
