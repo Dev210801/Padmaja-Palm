@@ -216,23 +216,13 @@ export default function Venues() {
 
       <div className="villarev">
         <div className="villades">
-          <div className="text12">
+          <div className="text12 lawnn">
             <h3>Pool</h3>
             <div className="tess">
               <b> Seating:</b> 100+ <br />
               <b> Total Area:</b> 6,300 SFT <br />
-              <div className="ameni">
-                <b> Amenities:</b> <br />
-              </div>
-              <div className="lis">
-                <div className="lis1">
-                  <li>Swimming Pool</li>
-                  <li>Indoor A/C </li>
-                </div>
-                <div className="lis2">
-                  <li>Dining Space </li>
-                </div>
-              </div>
+              <b> No of Pools:</b> 2 <br />
+             
             </div>
           </div>
         </div>
