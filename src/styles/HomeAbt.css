@@ -45,11 +45,12 @@
 @media only screen and (max-width: 1200px){
     .text{
         width: 90vw;
-        overflow: hidden;
-        display: -webkit-box;
-   -webkit-line-clamp: 25; /* number of lines to show */
+        height: 50vh;
+        overflow-x: scroll;
+        /* display: -webkit-box;
+   -webkit-line-clamp: 25; 
            line-clamp: 25; 
-   -webkit-box-orient: vertical;
+   -webkit-box-orient: vertical;     */
     }
     .caras{
         width: 90vw;
