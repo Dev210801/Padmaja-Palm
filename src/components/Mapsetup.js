@@ -10,11 +10,11 @@ const center = {
   lat: 17.271751966159943, 
   lng: 78.44995272534423
 };
-
+const apikey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
 function MyComponent({zooml}) {
   const { isLoaded } = useJsApiLoader({
     id: 'google-map-script',
-    googleMapsApiKey: "AIzaSyAQMRfBHg6Wayhqx-oA9zjfb5wwl6k5B3Y"
+    googleMapsApiKey: apikey
     
   })
 
