@@ -44,7 +44,10 @@ export default function HomeAbt() {
           </div>
         </div>
         <div className="caras">
+          <div className="carasimg">
           <Carousel homecaro={homecaro} />
+
+          </div>
         </div>
       </div>
       <Counter />

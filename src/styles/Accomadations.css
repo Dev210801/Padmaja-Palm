@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Arsenal&display=swap');
 .villa,
 .villarev {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
+  /* font-family: 'Arsenal', sans-serif; */
 }
 .mainaccom{
   animation: focus-in-expand 1s;
@@ -36,6 +37,7 @@
 }
 .villades{
   padding: 3vh;
+  font-family: 'Arsenal', sans-serif;
 }
 .embla {
   overflow: hidden;
@@ -69,6 +71,9 @@
     flex-direction: column-reverse;
   }
 }
+.ameni, .lis li{
+  font-family: 'Arsenal', sans-serif;
+}
 @media only screen and (max-width: 600px) {
   .lis{
     flex-direction: column;
@@ -88,13 +93,14 @@
 
 .text12 h3, .headin{
   font-family: 'Playfair', serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-top: 3vh;
   text-align: center;
   text-transform: uppercase;
 }
 .text12 h5{
-  font-family: 'Playfair', serif;
+  /* font-family: 'Playfair', serif; */
+  font-family: 'Arsenal', sans-serif;
   padding-top: 3vh;
   text-align: center;
   text-transform: uppercase;
@@ -103,7 +109,8 @@
 .text12 p, .tess{
   font-size: 1.3rem;
   padding: 4vh;
-  font-family: 'Nunito', sans-serif;
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Arsenal', sans-serif;
   /* text-align: center; */
 }
 .text12{
