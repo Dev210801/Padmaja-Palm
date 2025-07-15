@@ -8,7 +8,7 @@ import {
   parkingpics,
   poolpics,
 } from "../jsons/accomadation_pics.js";
-import { Banquet, lawn, lawn22, ph } from "../jsons/venues_pics";
+import { Banquet, lawn, lawn22, ph,conv } from "../jsons/venues_pics";
 export default function Venues() {
   const [emblaRef1] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef2] = useEmblaCarousel({ loop: true }, [Autoplay()]);
@@ -17,6 +17,7 @@ export default function Venues() {
   const [emblaRef6] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef4] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef7] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  const [emblaRef8] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   return (
     <div className="mainaccom">
       <br />
@@ -137,17 +138,21 @@ export default function Venues() {
               <b> Seating:</b> 400+ <br />
               <b> Dimensions:</b> 166' X 38'5" X 12' <br />
               <b> Total Area:</b> 6,391 SFT <br />
-              <p
+               <strong>
+
+                <p
                 style={{
-                  color: "red",
-                  fontSize: "1rem",
+                 
                   padding: 0,
                   paddingBottom: 0,
+                 
                 }}
               >
-                (New banquet extention under construction with total area of
-                5332 sft 155 x 34.4 x 22)
+                Extended Dining Area with total area of
+                5332 sft and dimesions of 155 x 34.4 x 22
               </p>
+               </strong>
+              <br />
               <div className="ameni1">
                 <b> Amenities:</b> <br />
               </div>
@@ -161,6 +166,8 @@ export default function Venues() {
                   <li>Two Green rooms </li>
                 </div>
               </div>
+              <br />
+              
             </div>
           </div>
         </div>
@@ -264,6 +271,37 @@ export default function Venues() {
           </div>
         </div>
       </div>
+      {/* Convention */}
+       <div className="villarev">
+        <div className="villades">
+          <div className="text12 lawnn">
+            <h3>Convention</h3>
+            <p
+                style={{
+                  color: "red",
+                  padding: 0,
+                  paddingBottom: 0,
+                 
+                }}
+              >
+                (Under Construction)
+              </p>
+          </div>
+        </div>
+        <div className="villapics">
+          <div className="embla" ref={emblaRef8}>
+            <div className="embla__container">
+              {conv.map((item, key) => (
+                <div className="embla__slide" key={key}>
+                  <img src={item} alt="" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      
+
       <br />
     </div>
   );

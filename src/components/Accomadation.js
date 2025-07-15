@@ -9,9 +9,11 @@ import { rooms, villa, rooms2, exerooms } from "../jsons/accomadation_pics.js";
 export default function Accomadation() {
   
   const [emblaRef2] = useEmblaCarousel({loop: true}, [Autoplay()]);
-  const [emblaRef25] = useEmblaCarousel({loop: true}, [Autoplay()]);
+  const [emblaRef3] = useEmblaCarousel({loop: true}, [Autoplay()]);
   const [emblaRef1] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef4] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+ 
+
   return (
     <div className="mainaccom">
       <br />
@@ -153,38 +155,37 @@ export default function Accomadation() {
         {/* <h2>Villa</h2> */}
         <div className="villa">
           <div className="villapics">
-            <div className="embla" ref={emblaRef25}>
-              <div className="embla__container">
-                
-              {exerooms.map((item, key) => (
-                  <div className="embla__slide" key={key}>
-                    <img src={item} alt="" />
-                  </div>
-                ))}
-                
+              <div className="embla" ref={emblaRef3}>
+                <div className="embla__container">
+                  
+                    {exerooms.map((item, key) => (
+                    <div className="embla__slide" key={key}>
+                      <img src={item} alt="" />
+                    </div>
+                    ))}
+                  
+                </div>
               </div>
-            </div>
           </div>
           <div className="villades">
             <div className="text12">
               <h3>Executive rooms</h3>
-              <h4 className="ameni" style={{color: 'red'}}>(Under Contruction expected by 31st Dec 2023)</h4>
               <div className="tess">
-                <b> No. of Bed Rooms: </b>40 <br />
-                <b> Room Size:</b> - <br />
+                <b> No. of Bed Rooms: </b>42 <br />
+                <b> Room Size:</b> 21'0 x 20'0 <br />
                 <div className="ameni">
                   <b> Amenities:</b> <br />
                 </div>
                 <div className="lis">
                   <div className="lis1">
-                    <li>King Size Beds </li>
-                    <li>50 inch Tv</li>
-                    
-                    
+                    <li>King Size Beds </li>  
+                    <li>Safe Deposit</li>   
+                    <li>Locker</li>   
                   </div>
                   <div className="lis2">
                     <li>Wi-Fi Facility </li>
                     <li>Individual Casset A/C</li>
+                    <li>Fridge</li>
                   </div>
                 </div>
               </div>
