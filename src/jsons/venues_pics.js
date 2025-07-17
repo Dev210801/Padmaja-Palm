@@ -13,6 +13,10 @@ import ph2 from "../asserts/resortpics/party hall/2.JPG"
 import ph3 from "../asserts/resortpics/party hall/3.JPG"
 import lawn8 from "../asserts/resortpics/3.jpg"
 import conv1 from "../asserts/resortpics/convention/convention.jpg"
+import ext1 from "../asserts/resortpics/extentions/extention1.jpg"
+import ext2 from "../asserts/resortpics/extentions/extention2.jpg"
+import ext3 from "../asserts/resortpics/extentions/extention3.jpg"
+import ext4 from "../asserts/resortpics/extentions/extention4.jpg"
 
 export const Banquet = [ bank2, bank3, bank1];
 export const lawn = [lawn1, lawn3, lawn5];
@@ -20,3 +24,4 @@ export const lawn22 = [lawn8, lawn4];
 export const lawn33 = [lawn6, lawn7];
 export const ph = [ph1, ph2, ph3];
 export const conv = [conv1];
+export const ext = [ext1,ext2,ext3,ext4];

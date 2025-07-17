@@ -51,10 +51,6 @@ import gaze3 from "../asserts/resortpics/gazebo/3.jpg";
 import pool1 from "../asserts/resortpics/pool/1.JPG"
 import pool2 from "../asserts/resortpics/pool/2.JPG"
 import pool3 from "../asserts/resortpics/pool/3.JPG"
-import conv1 from "../asserts/resortpics/convention/convention1.jpg"
-import conv2 from "../asserts/resortpics/convention/convention2.jpg"
-import conv3 from "../asserts/resortpics/convention/convention3.jpg"
-import conv4 from "../asserts/resortpics/convention/convention4.heic"
 
 export const Banquet = [ bank2, bank3, bank1];
 export const lawn = [lawn1, lawn3, lawn5];
@@ -68,7 +64,7 @@ export const parkingpics = [parking, parking1];
 export const poolpics = [pool1, pool2, pool3];
 export const exerooms = [exe1,exe2,exe3];
 export const gazebopics = [gaze1, gaze2, gaze3];
-const allimgs = [villa1, villa2, villa3, villa4, villa5, villa6, villa7, img5, img0, room3, room4, lawn1, lawn3, lawn5, bank2, bank3, bank1, lawn4, lawn6, lawn7, ph1, ph2, ph3,  img5, img22, img33, img44, img55, img66, img77, img88, img0, img1, img2, img1, img3,  kit1, kit2, parking, parking1,conv4,conv1,conv2,conv3];
+const allimgs = [villa1, villa2, villa3, villa4, villa5, villa6, villa7, img5, img0, room3, room4, lawn1, lawn3, lawn5, bank2, bank3, bank1, lawn4, lawn6, lawn7, ph1, ph2, ph3,  img5, img22, img33, img44, img55, img66, img77, img88, img0, img1, img2, img1, img3,  kit1, kit2, parking, parking1];
 // allimgs.concat(lawn);
 // allimgs.concat(ph);
 // allimgs.concat(Banquet);

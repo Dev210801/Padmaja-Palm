@@ -8,7 +8,7 @@ import {
   parkingpics,
   poolpics,
 } from "../jsons/accomadation_pics.js";
-import { Banquet, lawn, lawn22, ph,conv } from "../jsons/venues_pics";
+import { Banquet, lawn, lawn22, ph,conv,ext } from "../jsons/venues_pics";
 export default function Venues() {
   const [emblaRef1] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef2] = useEmblaCarousel({ loop: true }, [Autoplay()]);
@@ -18,6 +18,7 @@ export default function Venues() {
   const [emblaRef4] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef7] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   const [emblaRef8] = useEmblaCarousel({ loop: true }, [Autoplay()]);
+  const [emblaRef9] = useEmblaCarousel({ loop: true }, [Autoplay()]);
   return (
     <div className="mainaccom">
       <br />
@@ -138,20 +139,6 @@ export default function Venues() {
               <b> Seating:</b> 400+ <br />
               <b> Dimensions:</b> 166' X 38'5" X 12' <br />
               <b> Total Area:</b> 6,391 SFT <br />
-               <strong>
-
-                <p
-                style={{
-                 
-                  padding: 0,
-                  paddingBottom: 0,
-                 
-                }}
-              >
-                Extended Dining Area with total area of
-                5332 sft and dimesions of 155 x 34.4 x 22
-              </p>
-               </strong>
               <br />
               <div className="ameni1">
                 <b> Amenities:</b> <br />
@@ -271,8 +258,45 @@ export default function Venues() {
           </div>
         </div>
       </div>
-      {/* Convention */}
+      {/* Banquet Extention */}
        <div className="villarev">
+        <div className="villades">
+          <div className="text12 lawnn">
+            <h3>Banquet Extention</h3>
+             <div className="tess">
+              <b> Area: </b>Indoor (Non-AC)<br />
+              <b> Dimensions:</b> 155 x 34.4 x 22 <br />
+              <b> Total Area:</b> 5332 <br />
+              
+            </div>
+          </div>
+        </div>
+        <div className="villapics">
+          <div className="embla" ref={emblaRef8}>
+            <div className="embla__container">
+              {ext.map((item, key) => (
+                <div className="embla__slide" key={key}>
+                  <img src={item} alt="" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      {/* Convention */}
+         <div className="villa">
+        <div className="villapics">
+          <div className="embla" ref={emblaRef9}>
+            <div className="embla__container">
+              {conv.map((item, key) => (
+                <div className="embla__slide" key={key}>
+                  <img src={item} alt="" />
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
         <div className="villades">
           <div className="text12 lawnn">
             <h3>Convention</h3>
@@ -288,19 +312,7 @@ export default function Venues() {
               </p>
           </div>
         </div>
-        <div className="villapics">
-          <div className="embla" ref={emblaRef8}>
-            <div className="embla__container">
-              {conv.map((item, key) => (
-                <div className="embla__slide" key={key}>
-                  <img src={item} alt="" />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
       </div>
-      
 
       <br />
     </div>
