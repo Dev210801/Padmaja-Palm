@@ -11,7 +11,6 @@ import Footer from "./components/Footer";
 import Accomadation from "./components/Accomadation";
 import Venues from "./components/Venues";
 // import "../jsons/services.js";
-import {data} from "./jsons/services";
 
 function App() {
   
@@ -23,7 +22,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Homepage /> } />
         {/* <Route path="about" element={<About />} /> */}
-        <Route path="service" element={<Service data = {data} />} />
+        <Route path="service" element={<Service />} />
         <Route path="accommodation" element={<Accomadation/>}/>
         <Route path="venues" element={<Venues/>}/>
         <Route path="gallery" element={<Gallery />} />

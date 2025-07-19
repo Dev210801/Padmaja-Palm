@@ -4,7 +4,8 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { useRef } from "react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
-import logo from '../asserts/Landscape without bg.png';
+import logo from '../asserts/Padmaja_new_Logo.png';
+import logo1 from '../asserts/Landscape without bg.png'
 
 export default function Navbar() {
   const navref = useRef();
@@ -28,7 +29,7 @@ export default function Navbar() {
     <div className="navvv">
       <header style={{ background: color}}>
         <NavLink onClick={scrolltop} to="/">
-      <img src={logo} alt="" className="img1" />
+      <img src={logo1} alt="" className="img1" />
         </NavLink>
         <nav ref={navref}>
           <NavLink onClick={showNavbar} to="/">Home</NavLink>
