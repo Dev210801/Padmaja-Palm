@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Footer.css";
-import imglogo from "../asserts/Landscape without bg.png";
+import imglogo from "../asserts/Padmaja_new_Logo.png";
 import { NavLink } from "react-router-dom";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 import Mapsetup from "./Mapsetup";
